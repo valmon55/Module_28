@@ -16,11 +16,20 @@
 </head>
 <header id="header-index">
     <!--Заголовок страницы-->
-    <h1">LifeSpot — прямые трансляции с улиц</h1>
-    <p><textarea class="search" placeholder="не более 100 символов" maxlength="100"></textarea></p>
-    <!--<h1 style="color: red">LifeSpot — прямые трансляции с улиц</h1>-->
-    <!--Параграф-->
-    <p>Покажем, что происходит прямо сейчас</p>
+    <h1">
+        LifeSpot — прямые трансляции с улиц</h1>
+        <!--<p><textarea class="search" placeholder="не более 100 символов" maxlength="100"></textarea></p>-->
+        <p><input class="search" type="text" 
+                  oninput="    // Получим все элементы input с нашей страницы    
+                                let elements = document.getElementsByTagName('input');
+                                 // Получим первый элемент DOM в коллекции
+                                 let element = elements[0]; // Получим строковое значение
+                                 let elementText = element.value;
+                                // Выведем во всплывающее окно 
+                                alert(elementText)" size=50%></p>
+        <!--<h1 style="color: red">LifeSpot — прямые трансляции с улиц</h1>-->
+        <!--Параграф-->
+        <p>Покажем, что происходит прямо сейчас</p>
 </header>
 <body>
     <div class="bordered">
