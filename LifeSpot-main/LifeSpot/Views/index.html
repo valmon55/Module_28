@@ -25,6 +25,7 @@
                    /* Код ниже отрабатывает каждый раз при вводе символа в input * /
                    // Сохраняем текст пользовательского запроса.
                    let inputString=document.getElementsByTagName('input')[0].value.toLowerCase();
+                   console.log(`-- FilterVideos ( ${inputString} ) started --`);
                    // Находим контейнеры с видео, которые необходимо фильтровать
                    let elements=document.getElementsByClassName('video-container');
                    // Пробегаемся по контейнерам
